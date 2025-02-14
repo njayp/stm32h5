@@ -1,0 +1,2 @@
+embed:
+	cargo embed --release

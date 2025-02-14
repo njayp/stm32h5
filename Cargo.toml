@@ -1,0 +1,12 @@
+[package]
+name = "stm32h5"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embassy-stm32 = { version = "*", features = ["stm32h563zi", "time-driver-any"] }
+embassy-executor = { version = "*", features = ["arch-cortex-m", "executor-thread"] }
+embassy-time = "*"
+cortex-m = "0.7.6"
+cortex-m-rt = { version = "0.7" }
+panic-halt = "0.2.0"
